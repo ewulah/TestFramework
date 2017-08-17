@@ -20,7 +20,6 @@ namespace Tests
         [TestMethod]
         public void Can_Go_To_Author_Page()
         {
-
             Pages.HomePage.Goto();
             Pages.HomePage.SelectAuthor("Troy Hunt");
 
